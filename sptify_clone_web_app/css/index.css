@@ -111,10 +111,10 @@ a {
 
 .btn {
     margin-top: 40px;
-    height: 60px;
-    width: 180px;
-    font-weight: bolder;
+    padding: 15px;
+    font-weight: bold;
     border-radius: 50px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
 }
 
 .why {
@@ -256,6 +256,7 @@ a {
         display: flex;
         /* background-color: red; */
     }
+    
 
 }
 
@@ -269,29 +270,27 @@ a {
 }
 
 .container4 {
-    height: 430px;
+    height: 500px;
     width: auto;
     text-align: center;
     /* background-color: red; */
-    display: flex;
-    justify-content: center;
+
 }
 
 .gotque {
     height: 90px;
-    width: 70%;
+    width: auto;
     /* background-color: #3378df; */
     font-family: spotify-circular, Helvetica, Arial, sans-serif;
-    ;
 }
-
-ul {
-    list-style-type: none;
-
-}
-
-li {
+details{
+    /* background-color: #6079e7; */
     border-bottom: 1px solid #dedede;
+}
+ul{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .head {
@@ -299,14 +298,11 @@ li {
 }
 
 .sm {
-    width: auto;
     padding: 20px;
     display: flex;
     /* background-color: #1ed760; */
     text-align: left;
-    display: flex;
     font-family: spotify-circular, Helvetica, Arial, sans-serif;
-    ;
 }
 
 details[open]>summary:first-of-type {
@@ -340,8 +336,69 @@ strong {
 .container3 {
     height: auto;
     width: auto;
-    padding-top: 160px;
-    padding-bottom: 160px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     text-align: center;
     background-image: linear-gradient(to right top, #a545e6, #4c06ce);
+}
+
+.ready{
+    font-size: 50px;
+    padding: 10px;
+}
+footer{
+    width: auto;
+    height: 500px;
+    background-color: black;
+}
+.legal{
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ft1{
+    display: flex;
+    justify-content: start;
+    padding: 50px;
+}
+.ft2{
+    text-align: left;
+    padding: 20px;
+}
+.pad{
+    padding: 10px;
+    font-size: 14px;
+    color: white;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;;
+}
+.fthead{
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.social{
+    width: 55px;
+    height: 55px;
+    background-color: #222326;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 10px;
+}
+.ftlogo{
+    background-color: white;
+    height: 30px;
+}
+.fts{
+    display: flex;
+    margin-left: auto;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+footer{
+    display: flex;
 }
